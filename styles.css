@@ -25,14 +25,14 @@ body    {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin: auto;
+        margin:  0 auto;
         min-height: 100vh;
         /* padding: 30px; */
 
     }
 
     .imagetexts img {
-        margin: auto;
+        margin: 0 auto;
     }
     .icons {
         display: flex;
@@ -161,6 +161,7 @@ body    {
 
     @media only screen and (max-width: 850px) {
 
+       
         nav img {
             height: 30px;
             margin-top: 30px;
@@ -264,12 +265,48 @@ body    {
             width: 40%;
             margin: 0 auto 70px auto;
         }
+
+        body    {
+            background-image: url(./images/bg-desktop.svg), 
+            linear-gradient(to right, hsl(257, 40%, 49%)
+            , hsl(257, 40%, 49%));
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-size: contain;
+        }
+    
+
+
+        .imagetexts     {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin:  0 auto;
+            min-height: 50vh;
+            /* padding: 30px; */
+    
+        }
     
         .imagetexts img {
             margin: 20px auto 0 auto;
             display: flex;
             width: 50%;
             height: auto;
+        }
+
+        /* footer {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            margin: 24px 49px 162px auto;
+        } */
+
+        .all-icons {
+            margin-right: 60px;
+            cursor: pointer;
         }
      
     }
