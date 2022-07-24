@@ -266,6 +266,13 @@ body    {
             margin: 0 auto 0 auto;
         }
 
+        nav img {
+            height: 45px;
+            margin-top: 60px;
+            margin-left: 16px;
+            margin-bottom: 50px;
+        }
+
         body    {
             background-image: url(./images/bg-desktop.svg), 
             linear-gradient(to right, hsl(257, 40%, 49%)
