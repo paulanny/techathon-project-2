@@ -8,7 +8,6 @@ body    {
         background-image: url(./images/bg-desktop.svg), 
         linear-gradient(to right, hsl(257, 40%, 49%)
         , hsl(257, 40%, 49%));
-        background-position: top, bottom;
         background-repeat: no-repeat;
         min-height: 100vh;
         background-size: contain;
@@ -173,7 +172,6 @@ body    {
             background-image: url(./images/bg-mobile.svg), 
             linear-gradient(to right, hsl(257, 40%, 49%)
             , hsl(257, 40%, 49%));
-            background-position: top, bottom;
             background-repeat: no-repeat;
             min-height: 100vh;
             background-size: contain;
